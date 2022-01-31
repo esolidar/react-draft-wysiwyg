@@ -43,8 +43,9 @@ export default {
   "components.controls.image.image": "Imagem",
   "components.controls.image.fileUpload": "Carregar arquivo",
   "components.controls.image.byURL": "URL",
-  "components.controls.image.dropFileText":
-    "Arraste uma imagem aqui ou clique para carregar",
+  "components.controls.image.altText": "Ligação",
+  "components.controls.image.altPlaceholder": "URL",
+  "components.controls.image.dropFileText": "Arraste uma imagem aqui ou clique para carregar",
 
   // Inline
   "components.controls.inline.bold": "Negrito",
@@ -77,5 +78,5 @@ export default {
   "components.controls.textalign.left": "À Esquerda",
   "components.controls.textalign.center": "Centralizado",
   "components.controls.textalign.right": "À Direita",
-  "components.controls.textalign.justify": "Justificado"
+  "components.controls.textalign.justify": "Justificado",
 };
