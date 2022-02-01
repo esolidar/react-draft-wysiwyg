@@ -16,6 +16,9 @@ jobs:
           git config --global user.email "pedroguia@live.com.pt",
           git config --global user.name "Pedro Guia"
 
+      - name: Install dependencies
+        run: yarn
+
       - name: Update package version
         run: yarn version --minor
 
@@ -40,9 +43,6 @@ jobs:
         with:
           node-version: "12.x"
           registry-url: "https://npm.pkg.github.com"
-
-      - name: Install dependencies
-        run: yarn
 
       - name: Publish
         run: npm publish
