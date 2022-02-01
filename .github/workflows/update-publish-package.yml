@@ -19,6 +19,9 @@ jobs:
       - name: Update package version
         run: yarn version --minor
 
+      - name: Run build
+        run: yarn build
+
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
