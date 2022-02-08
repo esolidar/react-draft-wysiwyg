@@ -1,12 +1,11 @@
 .rdw-editor-main {
   height: 100%;
-  overflow: auto;
   box-sizing: border-box;
 }
 .rdw-editor-toolbar {
   padding: 6px 5px 0;
   border-radius: 2px;
-  border: 1px solid #F1F1F1;
+  border: 1px solid #f1f1f1;
   display: flex;
   justify-content: flex-start;
   background: white;
@@ -14,6 +13,7 @@
   font-size: 15px;
   margin-bottom: 5px;
   user-select: none;
+  overflow: auto;
 }
 .public-DraftStyleDefault-block {
   margin: 1em 0;
